@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/SQA Files/Web_AutomationProject/boibazar_WebAutomation_Project">
+        <classes>
+            <class name="org.test.HomePageTest">
+                <methods>
+                    <include name="homeTest"/>
+                </methods>
+            </class>
+            <class name="org.test.AuthorBookTest">
+                <methods>
+                    <include name="authorBookTest"/>
+                </methods>
+            </class>
+            <class name="org.test.BillingCartTest">
+                <methods>
+                    <include name="billingCartTest"/>
+                </methods>
+            </class>
+            <class name="org.test.ShippingOrderTest">
+                <methods>
+                    <include name="shippingOrderTest"/>
+                </methods>
+            </class>
+            <class name="org.test.RegistrationPageTest">
+                <methods>
+                    <include name="registrationPageTest"/>
+                </methods>
+            </class>
+            <class name="org.test.OTPPageTest">
+                <methods>
+                    <include name="otpPageTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
