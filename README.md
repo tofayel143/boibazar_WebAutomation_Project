@@ -30,7 +30,7 @@ These steps are executed:
 - Click Next Button
 - Provide Phone Number and click Next Button
 - Create an Account
-- Complete your order (Payment process not need)
+- Complete your order
 
 ### **[Run the script:](url)**
 
